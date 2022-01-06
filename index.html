@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFood</title>
+    <link rel="stylesheet" href="D:\Aksh\VS Code\MyFoodProject\CSS\indexCss.css.css">
+    <link rel="stylesheet" media="screen and (max-width:1000px)" href="phone.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
+            display: flex;
+            width: 100%;
+            height: 70px;
+            background-color: rgb(243, 165, 49);
+            opacity: 0.5;
+
+        }
+        img {
+            width: 50px;
+            height: 50px;
+            margin: 10px 5px;
+        }
+
+        ul {
+            width: auto;
+            float: right;
+            margin-top: 8px;
+
+        }
+
+        li {
+            display: inline-block;
+            padding: 15px 30px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #1e09e0;
+            font-size: 20px;
+            font-weight: bold;
+
+
+        }
+
+        a:hover {
+            color: rgb(240, 99, 99);
+
+        }
+
+        .bgimg {
+            background-image: url(christmas-1911637_1280.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            font-family: 'Sofia';
+            width: 100%;
+            height: 600px;
+
+
+        }
+
+        section {
+            text-align: center;
+            margin: 150px 250px;
+            font-family: 'Sofia';
+            font-size: 22px;
+            color: rgb(243, 243, 226);
+        }
+
+        section h1 {
+            font-size: 50px;
+        }
+
+        section button {
+            background-color: #ff1100;
+            /* Green */
+            border: none;
+            border-radius: 25px;
+            color: rgb(50, 85, 241);
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: 'Sofia';
+            cursor: pointer;
+        }
+
+        .heading {
+            text-align: center;
+            color: rgb(236, 236, 22);
+            font-size: 20px;
+            margin: 10px;
+        }
+
+        .services-container {
+            display: flex;
+            width: 1000pxs;
+            font-size: 15px;
+            margin: 20px 20px 30px 20px;
+            font-family: "Sofia", sans-serif;
+
+
+        }
+
+        .services-container h2 {
+            color: lightcoral;
+        }
+
+        .services-container img {
+            width: 200px;
+            height: 105px;
+
+        }
+
+        #box1 {
+            display: block;
+            border: 2px solid rgb(223, 139, 139);
+            margin: 20px 25px;
+            padding: 10px 15px;
+            border-radius: 20px;
+            color: rgb(15, 228, 217)
+        }
+
+        #box2 {
+            display: block;
+            border: 2px solid rgb(223, 139, 139);
+            margin: 20px 25px;
+            padding: 10px 15px;
+            border-radius: 20px;
+            color: rgb(15, 228, 217)
+        }
+
+        #box3 {
+            display: block;
+            border: 2px solid rgb(223, 139, 139);
+            margin: 20px 25px;
+            padding: 10px 15px;
+            border-radius: 20px;
+            color: rgb(15, 228, 217)
+        }
+
+        .clients {
+            background: url(video-1668906_1280.jpg);
+            width: 100%;
+            height: 300px;
+            margin: 10px 10px 10px 0px;
+        }
+
+        .clients h1 {
+            color: rgb(236, 236, 22);
+        }
+
+        .logo {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+        }
+
+        .footers {
+            text-align: center;
+            background: url(letters-2794672_1280.jpg);
+            width: 100%;
+            height: 350px;
+
+        }
+
+        .footers form {
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+        }
+
+        .form-grp {
+            padding: 10px 20px;
+            margin: 10px;
+
+        }
+
+        .form-grp input {
+            border: 2px solid red;
+            border-radius: 10px;
+            width: 500px;
+            padding: 5px;
+            text-align: center;
+            font-size: 15px;
+            color: red;
+        }
+
+        .form-grp textarea {
+            border: 2px solid red;
+            border-radius: 10px;
+            width: 500px;
+            padding: 5px;
+            text-align: center;
+            font-size: 15px;
+            color: red;
+        }
+
+
+        /* ================================================================================================= */
+        /* ================================================================================================== */
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="bgimg">
+
+        <!-- navbar -->
+        <header>
+            <nav class="navbar">
+                <img src="download.png" alt="logo">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Online Order</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- heading and btn  -->
+        <section>
+            <h1>Welcome To MyFood.Com</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quo sit aperiam corporis. Vitae,
+                debitis officia assumenda est quibusdam blanditiis?</p>
+            <button class="btn">Order Now</button>
+        </section>
+
+
+        <div class="heading">
+            <h1>Our Services</h1>
+        </div>
+
+        <!-- services -->
+        <section class="services-container">
+
+
+            <div id="box1">
+                <img src="taco-3291601_640.png" alt="">
+                <h2>Food Catering</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur odit quam pariatur dolor? Saepe
+                    tempore
+                    voluptatum est, adipisci veniam, architecto aut laudantium ipsum voluptatem similique dignissimos
+                    ea? Ea
+                    architecto cumque iure assumenda, optio ullam?</p>
+            </div>
+            <div id="box2">
+                <img src="fooddish.jpg" alt="">
+                <h2>Bulk Ordering</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur odit quam pariatur dolor? Saepe
+                    tempore
+                    voluptatum est, adipisci veniam, architecto aut laudantium ipsum voluptatem similique dignissimos
+                    ea? Ea
+                    architecto cumque iure assumenda, optio ullam?</p>
+            </div>
+
+            <div id="box3">
+                <img src="orderman.jpg" alt="">
+                <h2>Food Ordering</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur odit quam pariatur dolor? Saepe
+                    tempore
+                    voluptatum est, adipisci veniam, architecto aut laudantium ipsum voluptatem similique dignissimos
+                    ea? Ea
+                    architecto cumque iure assumenda, optio ullam?</p>
+            </div>
+
+
+        </section>
+
+        <section class="clients">
+            <h1>Our Clinets</h1>
+
+            <div class="logo">
+                <img src="facebook-2429746_640.png" alt="">
+
+            </div>
+            <div class="logo">
+                <img src="instagram-1675670_640.png" alt="">
+
+            </div>
+            <div class="logo">
+                <img src="twitter-2430933_640.png" alt="">
+
+            </div>
+            <div class="logo">
+                <img src="youtube-2433301_640.png" alt="">
+
+            </div>
+            <div class="logo">
+                <img src="bitcoin-2953851_640.png" alt="">
+
+            </div>
+
+        </section>
+
+        <footer class="footers">
+            <h1>Place Your Order</h1>
+
+            
+                <div class="form-grp">
+                    <input type="text" name="name" id="" placeholder="Enter Your Name">
+                </div>
+                <div class="form-grp">
+                    <input type="email" name="email" id="" placeholder="Enter Your Email-ID">
+
+                </div>
+                <div class="form-grp">
+                    <input type="number" name="numbar" id="" placeholder="Enter Your Mobile Number">
+
+                </div>
+                <div class="form-grp">
+                    <textarea name="address" id="" cols="30" rows="5" placeholder="Enter Your Address"></textarea>
+
+                </div>
+
+                <div class="form-grp">
+                    <input type="submit" name="submit" id="" value="SUBMIT">
+
+                </div>
+
+           
+
+
+        </footer>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+/* header  */
+
+nav{
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(243, 165, 49);
+    opacity: 0.5;
+    
+}
+
+
+ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+
+}
+li {
+    display: block;
+    text-align: center;
+}
+img{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgimg {
+    
+    width: 100%;
+    height: 900px;
+
+
+}
+section {
+    
+    margin: 150px 250px;
+    font-size: 15px;
+   
+}
+section h1 {
+    font-size: 20px;
+}
+
+section button {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Sofia';
+    cursor: pointer;
+}
+/* heading & section  */
+
+.heading {
+    font-size: 10px;
+    margin: auto;
+}
+
+/* services  */
+
+.services-container{
+    flex-direction: column;
+}
+
+/* .clients */
+.clients{
+    overflow: hidden;
+    height: 500px;
+}
+.clients h1 {
+   font-size: 20px;
+}
+.logo {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 50px 50px;
+    
+  
+}
+
+
+/* footer  */
+
+.footers form {
+    padding: 5px 10px;
+}
+.form-grp input {
+    width: 50%;
+    padding: 5px;
+}
+
+.form-grp textarea {
+    width: 50%;
+}
